@@ -10,7 +10,7 @@
 void setup() {
     config_ota(); // ota.h
     pinMode(LED_PISCA, OUTPUT);     //  pinMode(LED_BUILTIN, OUTPUT);
-    // se acabou a luz.
+    // se acabou a luz, se o ESP reiniciou.
 }
 
 void loop() {
