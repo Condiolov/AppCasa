@@ -14,7 +14,7 @@ void setup() {
 }
 
 void loop() {
-    
+
     pisca(); //pisca.h
     ArduinoOTA.handle(); // ota.h
 }
