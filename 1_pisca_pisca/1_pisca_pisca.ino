@@ -2,7 +2,7 @@
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
-#include "./senha.h"
+#include "../senha.h"
 #include "./pisca.h"
 #include "./ota.h"
 
