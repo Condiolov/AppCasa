@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h> // responsavel pela conexão wifi
 #include <ArduinoOTA.h>  // responsavel por subir o binario
 
-#include "../../senha.h" // REMOVA O "../../" E EDITE O "senha.h" COM NOME SENHA
-//#include "senha.h"
+//#include "../../senha.h" // REMOVA O "../../" E EDITE O "senha.h" COM NOME SENHA
+#include "senha.h"
 #include "pisca.h"
 #include "ota.h"
 
