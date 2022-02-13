@@ -7,7 +7,7 @@ Passo a passo de como fazer o upload do binário via IP OTA usando o Kate Editor
 
 video 1: https://youtu.be/TgQbt1ys-FA
 
-video 2:
+video 2: https://youtu.be/9wk9-3_aoyo ( AppCasa 1 - Pisca Pisca via ip OTA usando Kate Editor)
 
 ```mermaid
 graph LR
