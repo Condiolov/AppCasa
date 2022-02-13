@@ -27,11 +27,10 @@ B --> D{ESP 8266}
  - [ ] 6_
  - [ ] 7_
 
-<<<<<<< HEAD
+
 > **Note:** Inscreve no canal muita coisa legal!!
-=======
-> **Note:** Inscreve no canal muita coisa legal!! 
->>>>>>> 8337385c85a9ae17c23d4b50f97bc462dddfaa9d
+
+
 
 
 ```mermaid
