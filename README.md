@@ -1,5 +1,5 @@
 #  AppCasa Automação
-Esse pequeno projeto de automação tem por objetivo a simplicidade de subir um código ou binário via ip OTA, a enviar notificações via bot telegram, e o controle remoto via internet sem bibliotecas, com isso você pode ampliar o leque de recursos e usabilidades que podemos falar ate mesmo mostrar em videos futuros..
+Esse pequeno projeto de automação tem por objetivo a simplicidade de subir um código ou binário via ip OTA, na realidade o ESP 8266 enviar notificações via bot telegram, e o controle remoto via internet sem bibliotecas, com isso você pode ampliar o leque de recursos e usabilidades que podemos falar, e ate mesmo mostrar em videos futuros..
 
 # [1_pisca_pisca](https://github.com/Condiolov/AppCasa/tree/main/1_pisca_pisca "1_pisca_pisca")
 
@@ -27,7 +27,11 @@ B --> D{ESP 8266}
  - [ ] 6_
  - [ ] 7_
 
+<<<<<<< HEAD
 > **Note:** Inscreve no canal muita coisa legal!!
+=======
+> **Note:** Inscreve no canal muita coisa legal!! 
+>>>>>>> 8337385c85a9ae17c23d4b50f97bc462dddfaa9d
 
 
 ```mermaid
