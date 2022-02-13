@@ -1,10 +1,10 @@
-#include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
-#include <WiFiUdp.h>
-#include <ArduinoOTA.h>
-#include "../senha.h"
-#include "./pisca.h"
-#include "./ota.h"
+#include <ESP8266WiFi.h> // responsavel pela conexão wifi
+#include <ArduinoOTA.h>  // responsavel por subir o binario
+
+#include "../../senha.h" // REMOVA O "../../" E EDITE O "senha.h" COM NOME SENHA
+//#include "senha.h"
+#include "pisca.h"
+#include "ota.h"
 
 
 void setup() {

@@ -1,2 +1,2 @@
-const char* ssid = "AutoJota";
-const char* password = "Joaquim2020";
+const char* ssid = "NOME DA REDE WIFI";
+const char* password = "SENHA DO WIFI";

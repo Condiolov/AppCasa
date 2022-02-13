@@ -1,4 +1,4 @@
-#define LED_PISCA 15 //D4(2) ou D0(16) ou D8(15) colocando led
+#define LED_PISCA 2 //LOLIN - D4(2) ou AMICA - D0(16) ou D8(15) colocando led
 
 void pisca (){
 
@@ -6,6 +6,6 @@ void pisca (){
   delay(1000);
 
   digitalWrite(LED_PISCA, HIGH);
-  delay(1000);
+  delay(300);
 
 }
