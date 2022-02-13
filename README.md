@@ -4,8 +4,11 @@ Esse pequeno projeto de automação tem por objetivo a simplicidade de subir um 
 # [1_pisca_pisca](https://github.com/Condiolov/AppCasa/tree/main/1_pisca_pisca "1_pisca_pisca")
 
 Passo a passo de como fazer o upload do binário via IP OTA usando o Kate Editor ESP 8266, um pisca pisca apenas para saber se o ESP esta funcionando, se o codigo esta subindo, se esta tudo ok.
+
 video 1: https://youtu.be/TgQbt1ys-FA
+
 video 2:
+
 ```mermaid
 graph LR
 A[Kate Editor ou IDE Arduino] -- 10.0.0.1 --> B((WIFI))
