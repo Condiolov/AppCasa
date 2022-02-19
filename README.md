@@ -22,7 +22,7 @@ B --> D{ESP 8266 pisca pisca}
 
 Criando um mine web servidor com ESP 8266 capaz de acionar um led e futuramente uma lampada ou algo bem superior. Ao acessar o ip do ESP (no meu caso o 10.0.0.101) você verá uma pagina web que é a inteface basica que pode ser modificada e criada de acordo com suas espectativas. Nesse video explico cada funcionalidade, uma delas é o coração função que faz o ESP ficar picando, para mostrar seu funcionamento, bem como servir de led sinalizador de atividade.
 
-video 3:
+video 3: https://youtu.be/al7JYiOS6YU ( AppCasa 2 - Web servidor com ESP 8266 capaz de acionar um LED)
 
 
 ```mermaid
