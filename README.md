@@ -11,16 +11,33 @@ video 2: https://youtu.be/9wk9-3_aoyo ( AppCasa 1 - Pisca Pisca via ip OTA usand
 
 ```mermaid
 graph LR
+NOTA>Atualização do Esp via OTA]
 A[Kate Editor ou IDE Arduino] -- 10.0.0.1 --> B((WIFI))
 
-B --> D{ESP 8266}
+B --> D{ESP 8266 pisca pisca}
 
+```
+
+# [2_uma_lampada](https://github.com/Condiolov/AppCasa/tree/main/2_uma_lampada "2_uma_lampada")
+
+Criando um mine web servidor com ESP 8266 capaz de acionar um led e futuramente uma lampada ou algo bem superior. Ao acessar o ip do ESP (no meu caso o 10.0.0.101) você verá uma pagina web que é a inteface basica que pode ser modificada e criada de acordo com suas espectativas. Nesse video explico cada funcionalidade, uma delas é o coração função que faz o ESP ficar picando, para mostrar seu funcionamento, bem como servir de led sinalizador de atividade.
+
+video 3:
+
+
+```mermaid
+graph LR
+A[PAGINA WEB] -- 10.0.0.1 --> B((WIFI))
+B --> D[ESP]
+D-->E(LED 1)
+D-->F(LED 2)
+D-->H(...)
 ```
 
 ## Em breve
 
  - [x] 1_pisca_pisca ( Kate -> OTA -> ESP (pisca pisca)
- - [ ] 2_
+ - [x] 2_uma_lampada (Acionar via LED acessando ESP como servidor WEB)
  - [ ] 3_
  - [ ] 4_
  - [ ] 5_
