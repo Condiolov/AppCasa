@@ -22,6 +22,7 @@ void setup() {
     config_ota(); // ota.h
 
     pinMode(LED_BUILTIN, OUTPUT);     //  pinMode(LED_BUILTIN, OUTPUT);
+
     pinMode(L1, OUTPUT);
     pinMode(L2, OUTPUT);
 
