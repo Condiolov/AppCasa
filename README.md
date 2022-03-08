@@ -12,7 +12,7 @@ video 2: https://youtu.be/9wk9-3_aoyo ( AppCasa 1 - Pisca Pisca via ip OTA usand
 ```mermaid
 graph LR
 NOTA>Atualização do Esp via OTA]
-A[Kate Editor ou IDE Arduino] -- 10.0.0.1 --> B((WIFI))
+A[Kate Editor ou IDE Arduino] --> B((WIFI -> 10.0.0.1))
 
 B --> D{ESP 8266 pisca pisca}
 
@@ -27,7 +27,7 @@ video 3: https://youtu.be/al7JYiOS6YU ( AppCasa 2 - Web servidor com ESP 8266 ca
 
 ```mermaid
 graph LR
-A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
+A[PAGINA WEB] -- 10.0.0.1 --> B((WIFI))
 B --> D[ESP]
 D-->E(LED 1)
 D-->F(LED 2)
