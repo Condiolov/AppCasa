@@ -3,7 +3,7 @@ Esse pequeno projeto de automação tem por objetivo a simplicidade de subir um 
 
 # [1_pisca_pisca](https://github.com/Condiolov/AppCasa/tree/main/1_pisca_pisca "1_pisca_pisca")
 
-Passo a passo de como fazer o upload do binário via IP OTA usando o Kate Editor ou a IDE do proprio Arduino para ESP 8266, um pisca pisca apenas para saber se o ESP esta funcionando, se o Código esta subindo, se esta tudo ok.
+Passo a passo de como fazer o upload do binário via IP OTA (atualização remota de software) usando o Kate Editor ou a IDE do proprio Arduino para ESP 8266, um pisca pisca apenas para saber se o ESP esta funcionando, se o Código esta subindo, se esta tudo ok.
 
 video 1: https://youtu.be/TgQbt1ys-FA
 
@@ -27,7 +27,7 @@ video 3: https://youtu.be/al7JYiOS6YU ( AppCasa 2 - Web servidor com ESP 8266 ca
 
 ```mermaid
 graph LR
-A[PAGINA WEB] -- 10.0.0.1 --> B((WIFI))
+A[PAGINA WEB] -- 10.0.0.1 --> B((☁))
 B --> D[ESP]
 D-->E(LED 1)
 D-->F(LED 2)
