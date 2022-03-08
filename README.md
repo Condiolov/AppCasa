@@ -27,7 +27,7 @@ video 3: https://youtu.be/al7JYiOS6YU ( AppCasa 2 - Web servidor com ESP 8266 ca
 
 ```mermaid
 graph LR
-A[PAGINA WEB] -- 10.0.0.1 --> B((☁))
+A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
 B --> D[ESP]
 D-->E(LED 1)
 D-->F(LED 2)
