@@ -28,7 +28,7 @@ video 3: https://youtu.be/al7JYiOS6YU ( AppCasa 2 - Web servidor com ESP 8266 ca
 ```mermaid
 graph LR
 NOTA>Um mine Servidor]
-A[PAGINA WEB] -- B((WIFI -> 10.0.0.1))
+A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
 B --> D[ESP]
 D-->E(LED 1)
 D-->F(LED 2)
@@ -42,7 +42,7 @@ AppCasa 3 - Expansor de Entras e Saida para o ESP 8266 scanear endereço do ci P
 ```mermaid
 graph LR
 NOTA>Um mine Servidor]
-A[PAGINA WEB] -- B((WIFI -> 10.0.0.1))
+A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
 B --> E[ESP]
 E --> D[CI's PCF8574]
 D-->E(ci_1 SAIDA)
