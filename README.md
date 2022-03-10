@@ -48,6 +48,10 @@ D --> E[CI's PCF8574]
 E-->F(ci_1 SAIDA)
 E-->G(ci_2 ENTRADA)
 E-->H(cada ci 8 portas<br/> configuraveis)
+D --> E[CI's PCF8574]
+E-->F(ci_1 SAIDA)
+E-->G(ci_2 ENTRADA)
+E-->H(cada ci 8 portas<br/> configuraveis)
 ```
 
 
