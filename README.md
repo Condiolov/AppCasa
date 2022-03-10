@@ -44,14 +44,16 @@ graph LR
 NOTA>Um mine Servidor]
 A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
 B --> D[ESP]
-D --> E[CI's PCF8574]
+D --> E[PCF8574 1]
 E-->F(ci_1 P0 SAIDA)
 E-->G(ci_1 P1 ENTRADA)
 E-->H(cada ci 8 portas<br/> configuraveis)
 D --> E2[PCF8574 2 ]
-E-->F2(ci_2 P1 SAIDA)
-E-->G2(ci_2 P0 ENTRADA)
-E-->H2(cada ci 8 portas<br/> configuraveis)
+E2-->F2(ci_2 P1 SAIDA)
+E2-->G2(ci_2 P0 ENTRADA)
+E2-->H2(cada ci 8 portas<br/> configuraveis)
+D --> E3[Outros CI's ]
+E3-->H3(cada ci 8 portas<br/> configuraveis)
 ```
 
 
