@@ -43,11 +43,11 @@ AppCasa 3 - Expansor de Entras e Saida para o ESP 8266 scanear endereço do ci P
 graph LR
 NOTA>Um mine Servidor]
 A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
-B --> E[ESP]
-E --> D[CI's PCF8574]
-D-->E(ci_1 SAIDA)
-D-->F(ci_2 ENTRADA)
-D-->H(cada ci 8 portas<br/>
+B --> D[ESP]
+D --> E[CI's PCF8574]
+E-->I(ci_1 SAIDA)
+E-->F(ci_2 ENTRADA)
+E-->H(cada ci 8 portas<br/>
 configuraveis)
 ```
 
