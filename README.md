@@ -45,10 +45,9 @@ NOTA>Um mine Servidor]
 A[PAGINA WEB] --> B((WIFI -> 10.0.0.1))
 B --> D[ESP]
 D --> E[CI's PCF8574]
-E-->I(ci_1 SAIDA)
-E-->F(ci_2 ENTRADA)
-E-->H(cada ci 8 portas<br/>
-configuraveis)
+E-->F(ci_1 SAIDA)
+E-->G(ci_2 ENTRADA)
+E-->H(cada ci 8 portas<br/> configuraveis)
 ```
 
 
