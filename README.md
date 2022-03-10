@@ -35,8 +35,10 @@ D-->F(LED 2)
 D-->H(...)
 ```
 
-# [3_entradas_saidas]
-AppCasa 3 - Expansor de Entras e Saida para o ESP 8266 scanear endereço do ci PCF8574, conseguimos ampliar para mais dispositivos o controle do espectativas
+# [3_entradas_saidas](https://github.com/Condiolov/AppCasa/tree/main/3_entradas_saidas)
+AppCasa 3 - Trás o Expansor de Entras e Saida para o ESP 8266 e como scanear endereço do ci PCF8574, assim conseguimos ampliar para mais dispositivos e o controle desses dispositivos. Podemos expandir para cada ci 8 portas que pode ser configuradas como entradas ou saidas digitais!!
+
+video explicativo: https://youtu.be/oqK3GQwwyOA
 
 
 ```mermaid
